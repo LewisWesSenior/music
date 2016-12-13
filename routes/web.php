@@ -21,4 +21,11 @@ route::get('/laravelDHP', function() {
 
 Route::get('/login', function () {
     return view('login');
+	
+Route::get('/login1', function () {
+    return view('login');
+	
+//////_--_--_--\\\\\\\\\
+Route::get('/test1', function () {
+    return view('test1');
 });
