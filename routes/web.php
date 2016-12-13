@@ -31,4 +31,11 @@ Route::get('/test1', function () {
 	
 	Route::get('/test2', function () {
     return view('test2');
+	
+	Route::get('/test3', function () {
+    return view('test3');
+	
+	Route::get('/test4', function () {
+    return view('test4');
+	
 });
