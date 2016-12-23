@@ -11,10 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('oliver-landing');
-});
-
-route::get('/laravelDHP', function() {
+route::get('/', function() {
 	return view('welcome');
 });
